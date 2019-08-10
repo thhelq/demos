@@ -1,0 +1,562 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.inner-center {
+	width: 1170px;
+	margin: 0 auto;
+}
+/* 遮盖层 */
+.cover {
+	width: 100%;
+	z-index: -999;
+}
+.cover:before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 100%;
+	height: 990px;
+	z-index: -1;
+	background-color: rgba(0, 0, 0, 0.65);
+}
+
+header {
+	background: url(../images/bg_01.png) center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.head-box {
+	/*display: flex;
+	水平居中
+	flex-flow: column wrap;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;*/
+	height: 990px;
+	background-color: rgba(0, 0, 0, 0.65);
+	padding: 205px 0;
+}
+
+.head-hd {
+	width: 770px;
+	height: 225px;
+	text-align: center;
+	margin: 0 auto;
+}
+.head-hd .title {
+	font: 62px/72px Montserrat;
+	color: #fff;
+}
+.head-hd .text {
+	font: 20px/32px Montserrat;
+	color: #d0cfcf;
+	margin-top: 70px;
+}
+/* 注册 */
+.head-ft {
+	width: 967px;
+	height: 250px;
+	border: 1px solid #595652;
+	padding: 52px 102px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.head-ft .title {
+	font: 16px/28px Montserrat;
+	color: #fff;
+}
+.head-ft .text {
+	font: 12px/16px Montserrat;
+	color: #615e57;
+}
+.head-ft #zhuce {
+	margin-top: 45px;
+}
+.head-ft #zhuce #user,
+.head-ft #zhuce #password {
+	width: 290px;
+	height: 52px;
+	padding: 20px 25px;
+	border: 1px solid #7f7a6e;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+}
+.head-ft #zhuce #password {
+	margin: 0 20px;
+}
+.head-ft #zhuce #btn {
+	width: 130px;
+	height: 52px;
+	line-height: 52px;
+	color: black;
+	background-color: #fff;
+	text-align: center;
+	border:0;
+	outline: 0;
+}
+
+.area1-box {
+	width: 1050px;
+	height: 710px;
+	padding: 90px 0;
+	margin: 0 auto;
+}
+.area1 .hd {
+	text-align: center;
+}
+.area1 .hd .text {
+	font: bold 14px/28px Montserrat;
+	color: #000;
+	text-transform: uppercase;
+	margin-bottom: 23px;
+}
+.area1 .hd p:first-letter {
+
+}
+.area1 .hd .title {
+	font: 42px/52px Montserrat;
+	color: #000;
+}
+.area1 .ft {
+	height: 210px;
+	margin-top: 85px;
+}
+.area1 .ft .icon-item-1,
+.area1 .ft .icon-item-2 {
+	height: 110px;
+	overflow: hidden;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.area1 .ft > [class*="icon-item"] .icon-item-l,
+.area1 .ft > [class*="icon-item"] .icon-item-r {
+	width: 430px;
+	height: 100px;
+	padding-left: 65px;
+	background-repeat: no-repeat;
+}
+.area1 .ft > [class*="icon-item"] .icon-item-l {
+	float: left;
+}
+.area1 .ft > [class*="icon-item"] .icon-item-r {
+	float: right;
+}
+.area1 .ft .icon-item-1 .icon-item-l {
+	background-image: url(../images/icon_04.png);
+}
+.area1 .ft .icon-item-1 .icon-item-r {
+	background-image: url(../images/icon_05.png);
+}
+.area1 .ft .icon-item-2 {
+	margin-top: 60px;
+}
+.area1 .ft .icon-item-2 .icon-item-l {
+	background-image: url(../images/icon_06.png);
+}
+.area1 .ft .icon-item-2 .icon-item-r {
+	background-image: url(../images/icon_07.png);
+}
+}
+.area1 .ft div[class*="icon-item"] .title {
+	font: 20px/35px Montserrat;
+	color: #000;
+}
+.area1 .ft div[class*="icon-item"] .text {
+	margin-top: 10px;
+	font: 16px/27px Montserrat;
+}
+
+.area2 {
+	background: url(../images/bg_02.png)no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+}
+.area2-box {
+	padding: 100px 300px; 
+	height: 800px;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.65);
+}
+.area2-l {
+	/*width: 640px;*/
+}
+.area2-l .title,
+.area2-l .text {
+	width: 397px;
+}
+.area2-l .title {
+	font: 42px/53px Montserrat;
+	color: white;
+	margin: 70px 0 40px 0;
+}
+.area2-l .text {
+	font: 18px/28px Montserrat;
+	color: #cacecb;
+}
+.area2-l .links {
+	margin-top: 60px;
+}
+.area2-l .links a {
+	display: inline-block;
+	width: 240px;
+	height: 60px;
+	font: 12px/60px Montserrat;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.area2-l .links a:first-child {
+	color: #000;
+	background-color: #fff;
+	margin-right: 20px;
+}
+.area2-l .links a:last-child {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.area2-r {
+	width: 955px;
+	height: 600px;
+	text-align: center;
+	position: absolute;
+	top: 100px;
+	right: -300px;
+	border-left:60px solid transparent;
+	border-top:30px solid transparent;
+	background: url(../images/ipad.png)border-box no-repeat left top;
+	/*background-color: #fff;*/
+	background-size: 88%;
+}
+.area2 .r-box {
+	padding: 81px 60px;
+	background-color: #fff;
+}
+.area2-r .hd {
+
+}
+.area2-r .hd .title {
+	font: 24/45px Montserrat;
+}
+.area2-r .hd .text {
+	font: 14px/35px Montserrat;
+}
+.area2-r .ft {
+	width: 775px;
+	margin-top: 65px;
+	text-align: center;
+	display: inline-block;
+}
+.area2-r .ft .item {
+	width: 175px;
+	height: 250px;
+	margin-right: 25px;
+	padding-left: 15px;
+	background: url(../images/items.png) no-repeat -1px top;
+	float: left;
+	padding-top: 136px;
+	box-shadow: 3px 3px 9px #ccc;
+	text-align: left;
+
+}
+.area2-r .ft .item:last-child {
+	margin: 0;
+}
+.area2-r .ft .item .title {
+	font-size: 14px;
+	line-height: 53px;
+}
+.area2-r .ft .item .text {
+	font-size: 12px;
+	color: gray;
+}
+.area3 {
+	padding: 100px 0;
+	border-bottom: 1px solid #e7e7e7;
+}
+.area3-box {
+	width: 970px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.area3 .title {
+	font:42px Myriad Pro;
+	text-align: center;
+
+}
+.area3 .content {
+	margin-top: 87px;
+}
+.area3 .content .item {
+	display: inline-block;
+	width: 264px;
+	padding-top: 65px;
+	margin-right: 84px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.area3 .content .item:first-child {
+	background-image: url(../images/font_01.png);
+}
+.area3 .content .item:nth-of-type(2) {
+	background-image: url(../images/font_02.png);
+}
+.area3 .content .item:last-child {
+	margin: 0;
+	background-image: url(../images/font_03.png);
+}
+.area4 {
+	padding: 110px 0 100px 0;
+	border-bottom: 1px solid #e7e7e7;
+}
+.area4-box {
+	width: 970px;
+	margin: 0 auto;
+}
+.area4 [class*="pic-item"] {
+	overflow: hidden;
+}
+.area4 .img-box {
+	float: left;
+	width: 570px;
+	height: 350px;
+}
+}
+.area4 .img-box img {
+	width: 570px;
+	height: 350px;
+}
+.area4 .content-box {
+	float: right;
+	width: 330px;
+	height: 350px;
+	padding-top: 80px;
+}
+.area4 .content-box .title {
+	font: 20px/32px Montserrat;
+	color: #141414;
+}
+.area4 .content-box .text {
+	font: 16px/28px Montserrat;
+	color: #141414;
+	margin-top: 20px;
+}
+.area4 .pic-item-2{
+	margin-top: 77px;
+}
+.area4 .pic-item-2 .img-box{
+	float: right;
+}
+.area4 .pic-item-2 .content-box{
+	float: left;
+}
+
+.area5 {
+	border-bottom: 1px solid #e7e7e7;
+	padding: 100px 0;
+}
+.area5-box {
+	width: 970px;
+	margin: 0 auto;
+}
+.area5-box .area5-hd {
+	text-align: center;
+	margin-bottom: 65px;
+}
+.area5-box .area5-hd .title {
+	font: 42px/42px Montserrat;
+	color: #000;
+}
+.area5-box .area5-hd .text {
+ 	font: 18px/30px Montserrat;
+ 	color: #141414;
+ 	margin-top: 30px;
+}
+.area5-box .area5-pic > [class*="pic-item"] {
+	margin-top: 20px;
+}
+.area5-box .pic-item {
+	width: 470px;
+	height: 340px;
+	position: relative;
+	display: inline-block;
+}
+.area5-box .pic-item img {
+	width: 470px;
+	height: 340px;
+}
+.area5-box .pic-item .content-box {
+	width: 470px;
+	height: 340px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.65);
+}
+.area5-box .pic-item:nth-child(odd) {
+	margin-right: 25px;
+} 
+.area5-box .pic-item:hover .content-box {
+	display: block;
+}
+/* 此article居中子元素用 */
+.area5-box .pic-item .content-box > article {
+	width: 215px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.area5-box .pic-item .content-box .title {
+	font: 20px/32px Montserrat;
+	color: #fff;
+}
+.area5-box .pic-item .content-box .text {
+	font: 12px/30px Montserrat;
+	color: #fff;
+	text-transform: uppercase;
+}
+.area5-box .pic-item .content-box .links {
+	margin-top: 30px;
+}
+.area5-box .pic-item .content-box .links a {
+	width: 51px;
+	height: 56px;
+	display: inline-block;
+	margin-right: 25px;
+	background-color: black;
+	background-repeat: no-repeat;
+}
+/* 可以考虑用雪碧图优化 减少HTTP请求 */
+.area5-box .pic-item .content-box .links a:first-child {
+	background-image: url(../images/icon_01.png);
+}
+.area5-box .pic-item .content-box .links a:nth-of-type(2) {
+	background-image: url(../images/icon_02.png);
+}
+.area5-box .pic-item .content-box .links a:last-child {
+	background-image: url(../images/icon_03.png);
+	margin: 0;
+}
+.area6 {
+	padding: 70px 0;
+}
+.area6-box {
+	width: 970px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.area6 .message-l {
+	width: 470px;
+	height: 560px;
+	float: left;
+	padding: 35px 50px;
+	border: 1px solid #e7e7e7;
+}
+.area6 .message-l .title {
+	font: 16px/40px Montserrat;
+	text-transform: uppercase;
+	text-align: center;
+}
+.message-l #emial, 
+.message-l #subject,
+.message-l #message{
+	width: 370px;
+	height: 50px;
+	border: 1px solid #d4d3d3;
+	font-size: 14px;
+	line-height: 50px;
+	color: #b3b3b3;
+	padding-left: 23px;
+	margin-top: 30px;
+}
+.message-l #message {
+	height: 140px;
+}
+.message-l button[type="submit"] {
+	width: 370px;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 12px;
+	color: #fff;
+	background-color: #141414;
+	border: 0;
+	outline: 0;
+}
+.area6 .contact-r {
+	width: 370px;
+	height: 560px;
+	float: right;
+	padding: 70px 0;
+}
+.area6 .contact-r .contact-hd .title {
+	font: 42px/85px Montserrat;
+	color: #141414;
+}
+.area6 .contact-r .contact-hd .text {
+	font: 16px/25px Montserrat;
+	color: #8e8e8e;
+}
+.area6 .contact-r .contact-ft {
+	
+}
+.area6 .contact-r .contact-ft p {
+	font: 16px/26px Montserrat;
+	color: #141414;
+	margin-bottom: 25px;
+	padding-left: 40px;
+}
+.area6 .contact-r .contact-ft .site {
+	margin-top: 65px;
+}
+.area6 .contact-ft i {
+	display: inline-block;
+	width: 21px;
+	height: 25px;
+	background: url(../images/icon.png) no-repeat left -75px;
+	float: left;
+}
+.area6 .contact-ft .tel-i {
+	width: 30px;
+	background-position-x: -21px;
+}
+.area6 .contact-ft .email-i {
+	width: 30px;
+	background-position-x: -50px;
+}
+
+footer {
+	background-color: #141414;
+}
+.foot-box {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 80px 0;
+	overflow: hidden;
+}
+footer dl {
+	width: 292px;
+	float: left;
+}
+footer dl * {
+	height: 50px;
+	font-size: 14px;
+	color: #fff;
+}
+footer dl dd {
+	font-size: 16px;
+	color: #626262;
+}
+footer .links {
+	margin-top: 35px;
+	background: url(../images/icon.png)no-repeat left -50px;
+}

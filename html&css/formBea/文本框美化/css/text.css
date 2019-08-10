@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 13px/26px "微软雅黑";
+}
+ul {
+    list-style: none;
+}
+
+.contact {
+   width: 720px;
+   margin: 30px auto;
+   padding: 10px;
+   background-color: #F1F1F1; 
+}
+form li {
+    padding: 12px;
+    border-bottom: 1px solid #DFDFDF;
+}
+form label {
+    width: 150px;
+    display: inline-block;
+    margin-top: 3px;
+    padding: 3px;
+}
+form input {
+    width: 220px;
+    height: 20px;
+    padding: 5px 8px;
+    background: url(../img/red_asterisk.png) #fff 98% center no-repeat;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    padding-right: 30px;
+    transition: padding .25s;
+}
+form input:focus {
+    background-image: url(../img/invalid.png);
+    outline: none;
+    border: 1px solid #C00;
+    box-shadow: 0 0 5px #C00;
+    padding-right: 70px;
+}

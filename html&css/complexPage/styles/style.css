@@ -1,0 +1,689 @@
+header{
+	width: 100%;
+	height: 60px;
+	background-color: #2189BF;
+	padding: 0 100px 0 50px;
+	position: relative;
+
+}
+
+/* 幽灵元素垂直居中 */
+header:before,
+aside #top .头像:before,
+main > #topBox #middle .smallCalendar:before{
+	content: "";
+	display: inline-block;
+	height: 100%;
+	width: 1%;
+	vertical-align: middle;
+}
+header img,
+aside #top .头像 *,
+.smallCalendar > *{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+header form{
+	width: 313px;
+	height: 28px;
+	position: absolute;
+	top: 50%;
+	left: 60%;
+	transform: translateY(-50%);
+}
+
+.search button{
+	width: 17px;
+	height: 17px;
+	position: absolute;
+	top: 6px;
+	left: 7px;
+	outline: none;
+	border: none;
+	background: url(../images/search.jpg) no-repeat;
+	cursor: pointer;
+}
+
+.search input[type="text"]{
+	width: 100%;
+	height: 100%;
+	padding-left: 35px		;
+}
+
+.login{
+	position: absolute;
+	top: 50%;
+	left: 85%;
+	transform: translateY(-50%);
+	height: 16px;
+	background: url(../images/login.jpg) no-repeat;
+	margin-left: 20px;
+	padding-left: 20px;
+	font: 12px/16px "黑体";
+	cursor: pointer;
+}
+
+main{
+	width: 1280px;
+	margin: 0 auto; 
+	background: #EEEDED;
+
+}
+
+aside{
+	width: 260px;
+	height: 1213px;
+	background: #2A2E3D;
+	font: 12px "黑体";
+	color: #6D8095;
+}
+
+.white{
+	color: #ECECEF;
+}
+
+aside #top{
+	padding: 15px 45px;
+
+}
+
+aside #top .头像{
+	height: 100px;
+}
+
+aside #top .ABC123{
+	font: 16px "黑体";
+	color: #F6F5F4;	
+	margin-left: 20px;	
+}
+
+aside #top > p{
+	width: 70px;
+	font:12px "宋体";
+	color: #6D8095;
+	padding-left: 15px;
+	display: inline-block;
+	padding-bottom: 20px;
+}
+
+aside #top .粉丝{
+	padding-left: 30px;
+}
+
+aside #top > p span {
+	font: 16px "黑体";
+}
+
+aside #bottom li:first-child{
+	background: #383D4E;
+}
+
+aside #bottom > ul{
+	padding: 0;
+}
+
+aside #bottom > ul > li{
+	line-height: 45px;
+	padding-left: 45px;
+}
+
+aside #bottom ul li:first-child li{
+	line-height: normal;
+	margin-bottom: 18px;
+}
+
+aside #bottom .wid24{
+	width: 24px;
+}
+
+aside #bottom ul i{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: url(../images/icon.png) no-repeat;
+}
+
+aside #bottom .icon02{background: url(../images/icon.png) -12px center no-repeat;}
+
+aside #bottom .icon03{background: url(../images/icon.png) -36px center no-repeat;}
+
+aside #bottom .icon04{background: url(../images/icon.png) -60px center no-repeat;}
+
+aside #bottom .icon05{background: url(../images/icon.png) -72px center no-repeat;}
+
+aside #bottom .icon06{background: url(../images/icon.png) -84px center no-repeat;}
+
+aside #bottom .icon07{background: url(../images/icon.png) -96px center no-repeat;}
+
+aside #bottom .icon08{background: url(../images/icon.png) -108px center no-repeat;}
+
+main > #topBox,
+main > #middle,
+main > #bottom{
+	width: 891px;
+	margin-left: 325px;
+	background: inherit;
+}
+
+main > #nav{
+	width: calc(100% - 260px);
+	margin-left: 260px;
+	font: 12px/12px "黑体";
+	color: #AAAAA9;
+	padding: 10px 30px;
+	background: white;
+}
+
+main > #nav span{
+	color: #7AA5C9;
+}
+
+main > #topBox #top{
+	position: relative;
+	height: 86px;
+	background: white;
+	margin: 20px 0 0;
+	padding: 15px 170px 15px 30px;
+}
+
+main > #topBox #top td:nth-child(1),
+main > #topBox #top td:nth-child(2){
+	padding-right: 38px;
+}
+
+main > #topBox #top td:nth-child(2){
+	background: url(../images/arrow.jpg) no-repeat right 18px top;
+}
+
+main > #topBox #top tr:nth-child(2) td:nth-child(2){
+	background: url(../images/arrow02.jpg) no-repeat right 18px center;
+}
+
+main > #topBox #top .date{
+	padding-right: 11px;
+}
+
+
+main > #topBox #top label{
+	font: 12px "黑体";
+	color: #AAAAA9;
+}
+
+main > #topBox #top input[type="text"]{
+	width: 120px;
+}
+
+main > #topBox #top input[type="submit"]{
+	width: 51px;
+	height: 26px;
+	border-radius: 10%;
+	font: 12px "黑体";
+	color: #FEFEFE;
+	background: #398BC2;
+	border: none;
+	position: absolute;
+	top: 28px;
+	left: 714px;
+}
+
+main > #topBox #top img{
+	position: absolute;
+	top: 34.3px;
+	left: 363px;
+}
+
+main > #topBox #top input,
+main > #topBox #top select{
+	font: 12px "黑体";
+	color: #323232;
+	width: 65px;
+	height: 26px;
+	margin-left: 18px;
+}
+
+main > #topBox #top .deal{
+	margin: 0;
+}
+
+/* 买卖 + 成交项*/
+main > #topBox #top .buy,
+main > #topBox #top .sale,
+main > #topBox #top .deal{
+	width: 123px;
+}
+
+main > #topBox #middle{
+	width: 100%;
+	height: 65px;
+	margin-top: 10px;
+}
+
+main > #topBox #middle section{
+	width: 111px;
+	height: 65px;
+	float: left;
+	position: relative;
+	text-align: center;
+	padding: 11px 0;
+	border-top: 1px solid #CACDD0;
+	border-left: #DCDEE0 1px solid;
+	margin-left: 5px;
+	background: white;
+}
+
+main > #topBox #middle section:hover{
+	border-top: 2px solid #4389c9;
+	z-index: 1;
+	cursor: pointer;
+}
+
+main > #topBox #middle section + a img{
+	margin: 0 5px;
+}
+
+main > #topBox #middle section hr{
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	top: -8px;
+	left: 0;
+	border-top: 2px solid #4389c9;
+}
+
+main > #topBox #middle section p{
+	font: 12px "微软雅黑";
+	color: #323232;
+}
+
+main > #topBox #middle section p strong{
+	font: 21px "微软雅黑";
+	color: #EB6400;
+}
+
+main > #topBox #middle .smallCalendar{
+	width: 123px;
+	padding: 0;
+	margin: 0;
+}
+
+main > #topBox #bottom{
+	height: 100px;
+	margin-top: 20px;
+}
+
+main > #topBox #bottom h3{
+	font: 12px/20px "微软雅黑";
+	height: 20px;
+	color: #323232;
+}
+
+main > #topBox #bottom section{
+	width: 201px;
+	height: 71px;
+	float: left;
+	background: white;
+	margin-right: 29px;
+	position: relative;
+	border: 1px solid #ccc;
+}
+
+main > #topBox #bottom section:last-child{
+	margin: 0;
+}
+
+main > #topBox #bottom section p{
+	font: 10px "黑体";
+	color: #AAAAA9;
+	position: relative;
+	top: 20px;
+	left: 7px;
+	margin-bottom: 10px;
+}
+
+main > #topBox #bottom section strong{
+	color: #323232;
+	font: 12px "黑体";
+	margin-top: 5px;
+}
+
+main > #topBox #bottom section:before{
+	content: "";
+	float: left;
+	height: 100%;
+	width: 4px;
+	border-left: #AFCBC8 1px solid;
+	border-right: #67C0B0 1px solid;
+	background: #43B29D;
+}
+
+main > #topBox #bottom section:after{
+	content: "";
+	width: 61px;
+	height: 47px;
+	background: #43B29E;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	border: 1px solid #66C0B0;
+}
+
+main > #topBox #bottom section:nth-child(3):before{border-left: #A6BDCD 1px solid; border-right: #5EA1CD 1px solid; background: #388AC1;
+}
+
+main > #topBox #bottom section:nth-child(3):after{background: #388AC1; border: 1px solid #5DA0CD; }
+
+main > #topBox #bottom section:nth-child(4):before{ border-left: #CBADAA 1px solid; border-right: #D96D5C 1px solid; background: #D04A36;}
+
+main > #topBox #bottom section:nth-child(4):after{ background: #D04A36; border: #F3D2CD 1px solid; }
+
+main > #topBox #bottom section:nth-child(5):before{ border-left: #D6D2B4 1px solid; border-right: #E7D669 1px solid; background: #E2CD46; }
+
+main > #topBox #bottom section:nth-child(5):after{ background: #E2CD46; border: #E7D669 1px solid; }
+/* 上部分结束 */
+
+main > #middle{
+	height: 357px;
+}
+
+main > #middle .itemTab{
+	width: 531px;
+	height: 357px;
+	background: white;
+}
+
+.test_box{
+	width: 490px;
+	margin: 12px 0 0 20px;
+	position: relative;
+}
+
+.test_tab{
+	float: left;
+	width: 86px;
+	height: 27px;
+	margin-right: 3px;
+}
+
+.test_tab .test_label{
+	display: block;
+	width: 86px;
+	height: 27px;
+	background: #ededf0;
+	cursor: pointer;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	font: 12px/27px "Microsoft YaHei";
+	color: #535353;
+}
+
+.test_tab .test_radio,
+.test_tab .test_tab_content{
+	position: absolute;
+	left: -999em;
+}
+
+.test_tab .test_radio:checked ~ .test_tab_content{
+	margin-top: -1px;
+	border: 1px solid #ccc;
+	left: 0;
+	right: 0;
+	width: 490px;
+	height: 256px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.test_tab .test_radio:checked ~ .test_label{
+	background: #fff;
+	border: 1px solid #ccc;
+	border-bottom: 1px solid #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.test_tab .test_tab_content table{
+	width: 404px;
+	margin: 28px auto;
+	border-collapse: collapse;
+}
+
+.test_tab .test_tab_content td{
+	border: 1px solid #d2d2d2;
+	height: 32px;
+	text-align: center;
+}
+
+.test_tab .test_tab_content td.active{
+	background: #f4f5f6;
+}
+
+caption{
+	display: none;
+}
+
+main > #middle .itemForm{
+	width: 351px;
+	height: 357px;
+}
+
+main > #middle .itemForm h3,
+main > #bottom .calendar h3,
+main > #bottom .ranking h3,
+main > #middle .itemTab h3{
+	width: 100%;
+	height: 41px;
+	background: #F4F5F6;
+	font: 12px/41px "微软雅黑";
+	color: #AAAAA9;
+	padding-left: 20px;
+}
+
+main > #middle .itemForm form{
+	height: 315px;	
+	padding: 20px 0 0 35px;
+	background: white;
+}
+
+main > #middle .itemForm input[type='text']{
+	width: 60px;
+}
+
+main > #middle .itemForm .price span{
+	display: inline-block;
+	width: 95px;
+	height: 45px;
+	padding-left: 15px;
+
+	
+}
+
+main > #middle .itemForm .price span:first-child{
+	border-right: 1px solid #ccc;
+}
+
+main > #middle .itemForm .price span label,
+main > #middle .itemForm .description label,
+main > #middle .itemForm .title label,
+main > #middle .itemForm .footer label{
+	font: 12px/20px "微软雅黑";
+	color: #C2C2C1;
+}
+
+main > #middle .itemForm .price span input,
+main > #middle .itemForm .description textarea,
+main > #middle .itemForm .title input{
+	font: 12px/20px "微软雅黑";
+	color: #535353;
+	border: none;
+}
+
+main > #middle .itemForm .price:before{
+	content: "";
+	width: 280px;
+	height: 1px;
+	float: left;
+	background: #ccc;
+}
+
+main > #middle .itemForm .price:after{
+	content: "";
+	width: 100%;
+	height: 1px;
+	float: left;
+	background: #ccc;
+}
+
+main > #middle .itemForm .description{
+	width: 100%;
+	height: 145px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 5px;
+}
+
+main > #middle .itemForm .footer button{
+	width: 50px;
+	height: 26px;
+	font: 12px "黑体";
+	color: #FEFEFE;
+	background: #388AC1;
+	border: none;
+	margin-left: 130px;
+	border-radius: 10%;
+}
+
+{
+	font: 12px/20px "微软雅黑";
+	color: #C2C2C1;
+}
+/* 中间部分结束 */
+
+main > #bottom{
+	margin-top: 10px;
+}
+
+main > #bottom .calendar form{
+	width: 351px;
+	height: 316px;
+	padding: 10px 20px;
+	background: white;
+	text-align: center;
+}
+
+main > #bottom .calendar select,
+main > #bottom .calendar button{
+	width: 65px;
+	height: 21px;
+	font: 12px "黑体";
+	color: #535353;
+	background: white;
+	outline: none;
+}
+
+main > #bottom .calendar select + p{
+	display: inline-block;
+	height: 23px;
+	border: 1px solid rgb(169,169,169);
+}
+
+main > #bottom .calendar select + p span{
+	display: inline-block;
+	width: 15px;
+}
+
+main > #bottom .calendar select[name='month']{
+	padding-left: 20px;
+	border: none;
+}
+
+main > #bottom .calendar select[name='marking']{
+	width: 75px;
+}
+
+main > #bottom .calendar table{
+	font: 12px "黑体";
+	color: #323232;
+}
+
+main > #bottom .calendar td:hover{
+	border: 1px solid #F7D564;
+}
+
+main > #bottom  .calendar tbody tr > *{
+	width: 41px;
+	height: 42px;
+	cursor: pointer;
+
+}
+
+main > #bottom .calendar thead{			
+	margin-top: 10px;
+	border-top: 1px solid #A9CFEC;
+	border-bottom: 1px solid #ECECEC;
+}
+
+main > #bottom .calendar thead tr > *{
+	width: 45px;
+	height: 30px;
+	font: 12px "黑体";
+	color: #535353;
+	
+}
+
+.redFont{
+	font: 12px "黑体";
+	color: #C9151D;
+}
+
+.yellowBorder{
+	border: 1px solid #F7D564;
+}
+
+main > #bottom .ranking{
+	width: 530px;
+	height: 357px;
+	background: white;	
+}
+
+main > #bottom .ranking table{
+	height: 276px;		
+	margin:20px 40px;
+	text-align: center;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+}
+
+main > #bottom .ranking tr:hover{
+	background: #F4F5F6;
+}
+
+main > #bottom .ranking th{
+	font: 13px "黑体";
+	color: #221814;
+}
+
+main > #bottom .ranking td{
+	font: 12px "黑体";
+	color: #323232;
+}
+
+main > #bottom .ranking td img{
+	margin-left: 23px;
+}
+
+main > #bottom .ranking tr > *:first-child{ width: 70px;}
+
+main > #bottom .ranking tr > *:nth-child(2){width: 90px;}
+
+main > #bottom .ranking tr > *:nth-child(3){width: 290px;}
+
+.greyBack{
+	background: #F4F5F6;
+}
+
+main > #bottom > *,
+main > #middle .itemForm{
+	border: 1px solid #CFD1D5;
+}

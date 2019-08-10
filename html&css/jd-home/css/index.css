@@ -1,0 +1,250 @@
+/* 中间分类模块开始 */
+.grid {
+	height: 480px;
+	margin-top: 2px;
+}
+/* 左侧导航菜单 */
+.grid-col1 {
+	width: 190px;
+	height: 100%;
+	background-color: #fefefe;
+	font-size: 12px;
+	color: #626262;
+	position: relative;
+}
+.ad {
+	width: 250px;
+	height: 480px;
+	background-color: pink;
+	position: absolute;
+	top: 0;
+	left: -250px;
+}
+.ad-r {
+	width: 0;
+	height: 480px;
+	background: url(../images/ad-r.png);
+	position: absolute;
+	top: 0;
+	left: 250px;
+	z-index: 999;
+	transition: all 0.8s;
+}
+.ad:hover .ad-r {
+	width: 990px;
+}
+.grid-col1 a {
+	font-size: 14px;
+	color: #626262;
+	margin: 0 3px;
+
+}
+.grid-col1 a:hover {
+	color: #f10215;
+}
+.grid-col1 ul {
+	padding: 7px 0;
+}
+.grid-col1 ul li {
+	padding-left: 17px;
+	height: 26px;
+	line-height: 26px;
+
+}
+.grid-col1 ul li:hover {
+	background-color: #d9d9d9;
+}
+/* 中间 大轮播图 */
+.grid-col2 {
+	/*width: 790px;*/
+	width: 782px;
+	height: 100%;
+	margin-left: 15px;
+}
+.grid-col2-t {
+	position: relative;
+}
+.grid-col2-b div {
+	margin-top: 17px;
+}
+/* 箭头部分 */
+.arrow-l,
+.arrow-r {
+	width: 30px;
+	height: 60px;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .3);
+	color: rgba(255, 255, 255, 0.7);
+	font-family: arial;
+	font-weight: normal;
+}
+.arrow-r {
+	right: 0;
+}
+/* 轮播图中的小圆圈 */
+.circle {
+	width: 157px;
+	height: 20px;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	padding-left: 12px;
+
+}
+.circle li {
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 50%;
+	float: left;
+	margin: 4px;
+	cursor: pointer;
+}
+.circle .current {
+	background-color: #f10215;
+}
+/* 右侧模块 */
+.grid-col3 {
+	width: 190px;
+	height: 100%;
+}
+/* 登录 */
+.login {
+	height: 115px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.login-t {
+	width: 95px;
+	height: 60px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding-left: 60px;
+	position: relative;
+}
+.login-t a {
+	color: #666;
+}
+.login-t a:hover {
+	color: #f10215;
+}
+.user-info {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(../images/sprite_userinfo.png)no-repeat;
+}
+.user-info img {
+	width: 43px;
+	border-radius: 50%;
+	margin: 4px;
+}
+.login-b a {
+	display: inline-block;
+	width: 70px;
+	height: 20px;
+	border: 2px solid #f10215;
+	text-align: center;
+	line-height: 20px;
+	color: #f10215;
+	margin-right: 2px;
+}
+.login-b a:hover {
+	color: #fff;
+	background-color: #f10215;
+}
+/* 新闻 促销 */
+.news {
+	height: 154px;
+	border: 1px solid #ccc;
+	background-color: white;
+	padding: 13px;
+	box-sizing: border-box;
+}
+.news-t {
+	border-bottom: 1px solid #ccc;
+	height: 19px;
+	line-height: 17px;
+	position: relative;
+}
+.news-t a {
+	float: left;
+}
+.cuxiao {
+	width: 40px;
+	border-right: 1px solid #ccc;
+}
+.gonggao {
+	margin-left: 15px;
+}
+.news-t .more {
+	float: right;
+}
+.news-t div {
+	width: 28px;
+	height: 2px;
+	background-color: #f10215;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+.news-b {
+	padding-top: 14px;
+}
+.news-b li {
+	height: 23px;
+	line-height: 23px;
+}
+/* 扩展 服务 */
+.expand {
+	/* 宽度继承父级的 190px */
+	height: 205px;
+	background-color: #fff;
+	/* 把超出的宽度和高度的边框隐藏掉 */
+	overflow: hidden;
+}
+.expand ul {
+	width: 192px; /* 由于190px放不下4个li 所以设置宽度大于父级的 */
+}
+.expand li {
+	width: 47px;
+	height: 69px;
+	float: left;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.expand li a {
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+}
+.expand li i {
+	background: url(../images/expand.gif);
+	display: block;
+	margin: 0 auto 8px;
+	width: 15px;
+	height: 20px;
+}
+.expand li:first-child i {
+	width: 15px;
+	height: 20px;
+}
+.expand li:nth-child(n) i {
+
+}

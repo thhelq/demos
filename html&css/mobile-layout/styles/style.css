@@ -1,0 +1,115 @@
+.head-title{
+	height: 60px;
+	background: #91D4DA;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	position: relative;
+}
+
+.head-title .return,
+.head-title .title,
+nav ul li{
+	line-height: 60px;
+	font: 22px/60px bold;
+	color: white;
+}
+
+.head-title .return{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	align-self: flex-start;
+	background: url(../images/leftArrow.jpg) no-repeat left 17px;
+	padding-left: 17px;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li{
+	display: inline-block;
+	color: black;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+.banner{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 200px;
+}
+
+.banner img{
+	box-sizing: border-box;
+	width: 100%;
+	height: 200px;
+}
+
+.main-label{
+	height: 150px;
+}
+
+.main-label,
+.subfield{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.main-label figure{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 18px;
+}
+
+.main-label figure img{
+	width: 50px;
+}
+
+.main-label figure figcaption{
+	padding-top: 5px;
+}
+
+hr{
+	width: 90%;
+	height: 2px;
+	background-color: #E5E5E5;
+}
+
+.subfield{
+	height: 180px;
+	padding: 0 20px;
+}
+
+.subfield figure{
+	margin: 0;
+	padding: 0 0;
+	text-align: center;
+}
+
+.subfield figure img{
+	width: 60px;
+}
+
+.subfield figure h3{
+	color: #585858;
+}
+
+main .subfield figure .wi{
+	width: 91px;
+}
+
+.subfield hr{
+	width: 2px;
+	height: 150px;
+	background: #E5E5E5;
+}

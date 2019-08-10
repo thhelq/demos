@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- 头部 -->
+	<header class="head">
+		<section class="head-topnav">
+			<div class="inner-center">
+				<div class="shoucang fl">
+					<a href="#">收藏慕课</a>
+				</div>
+				<div class="login fr">
+					<p><a>欢迎慕课网！</a>
+						<a href="#">[登录]</a>
+						<a href="#">免费注册</a>
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="head-middle ">
+			<div class="inner-center clearfix">
+				<div class="logo fl">
+					<h1>
+						<a href="#">慕课网</a>
+					</h1>
+				</div>
+				<div class="stepBox fr">
+					<div class="step"></div>
+					<ul class="step-text clearfix">
+						<li class="s01 active">我的购物车</li>
+						<li class="s02 active">填写核对订单</li>
+						<li class="s03">订单提交成功</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</header>
+	<div class="shoppingCart inner-center">
+		<div class="shopping-item">
+			<h3 class="shopping-tit">收货信息</h3>
+			<div class="shopping-cont padding-shop">
+				<ul class="shopping-list">
+					<li>
+						<span class="shopping-list-text">
+							<em>*</em>
+							选择地区
+						</span>
+						<div class="select">
+							<h3>海淀区五环内</h3>
+							<span></span>
+							<ul class="show-select">
+								<li>上帝</li>
+								<li>五道口</li>
+								<li>上帝</li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<span class="shopping-list-text">
+							<em>*</em>
+							详细地址
+						</span>
+						<input type="text" value="最多输入26个汉字" class="input input-b">
+					</li>
+					<li>
+						<span class="shopping-list-text">
+							<em>*</em>
+							收货人
+						</span>
+						<input type="text" value="最多输入10个" class="input">
+					</li>
+					<li>
+						<span class="shopping-list-text">
+							<em>*</em>
+							手机
+						</span>
+						<input type="text" value="如13452525625" class="input">
+						<span class="cart-tel">&nbsp;或固定电话：</span>
+						<input type="text" value="区号" class="input input-s">
+						<span class="jian">-</span>
+						<input type="text" value="电话号码" class="input input-s2">
+						<span class="jian">-</span>
+						<input type="text" value="分机号(可选)" class="input input-s2">
+					</li>
+					<li>
+						<input type="button" value="确认收货地址" class="affirm">
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="shopping-item">
+			<h3 class="shopping-tit">支付方式</h3>
+			<div class="shopping-cont padding-shop">
+				<ul class="shopping-list">
+					<li>
+						<input type="radio" class="radio" id="r1">
+						<label for="r1">微信支付</label>
+						用微信扫一扫就能支付！
+					</li>
+					<li>
+						<input type="radio" class="radio" id="r2">
+						<label for="r2">货到付款</label>
+						送货上门后再付款，使用现金或刷银行卡。
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="shopping-item">
+			<h3 class="shopping-tit">
+				送货清单
+				<a href="#" class="backCar">返回购物车修改</a>
+			</h3>
+			<div class="shopping-cont">
+				<div class="cart-inner">
+					<div class="cart-head clearfix">
+						<div class="cart-item t-name">商品名称</div>
+						<div class="cart-item t-price">单价</div>
+						<div class="cart-item t-return">返现</div>
+						<div class="cart-item t-num">数量</div>
+						<div class="cart-item t-subtotal">小计</div>
+					</div>
+					<div class="cart-cont clearfix">
+						<div class="cart-item t-name">
+							<div class="cart-shopInfo clearfix">
+								<img src="images/des_sm.gif" alt="">
+								<div class="cart-shopInfo-cont">
+									<p class="cart-link"><a href="#">Hisense 海信 BCD-202D 202 升 三门冰箱 （银色）</a></p>
+									<p class="cart-info">[赠品] 保鲜盒 抽真空保鲜盒-海信冰洗赠品</p>
+								</div>
+							</div>
+						</div>
+						<div class="cart-item t-price">￥1459.00</div>
+						<div class="cart-item t-return">￥0.00</div>
+						<div class="cart-item t-num">1</div>
+						<div class="cart-item t-subtotal t-red">￥1459.00</div>
+					</div>
+					<div class="cart-message">若您对包裹有特殊要求，请在此留言</div>
+					<div class="cart-prompt">
+						<i class="cart-prompt-icon"></i>
+						抱歉，以下商品暂时不能购买，已帮您在本次结算中剔除并扣减对应金额，您可以先购买其他商品：）
+					</div>
+					<div class="cart-cont clearfix no-bor">
+						<div class="cart-item t-name">
+							<div class="cart-shopInfo clearfix">
+								<img src="images/des_sm.gif" alt="">
+								<div class="cart-shopInfo-cont">
+									<p class="cart-link"><a href="#">Hisense 海信 BCD-202D 202 升 三门冰箱 （银色）</a></p>
+									<p class="cart-info">[赠品] 保鲜盒 抽真空保鲜盒-海信冰洗赠品</p>
+								</div>
+							</div>
+						</div>
+						<div class="cart-item t-price">￥1459.00</div>
+						<div class="cart-item t-return">￥0.00</div>
+						<div class="cart-item t-num">1</div>
+						<div class="cart-item t-subtotal t-red">￥1459.00</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="shopping-item">
+			<h3 class="shopping-tit">订单结算</h3>
+			<div class="shopping-cont padding-shop clearfix">
+				<div class="cart-count fr">
+					<div class="cart-rmb">
+						<i>总计</i>
+						<span>￥145000009.00</span>
+					</div>
+					<div class="cart-btnBox">
+						<input type="button" value="提交订单" class="cart-btn">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 底部版权 -->
+	<footer class="foot">
+		<p>
+			<a href="#">慕课简介</a>
+			<i>|</i>
+			<a href="#">慕课公告</a>
+			<i>|</i>
+			<a href="#">招纳贤士</a>
+			<i>|</i>
+			<a href="#">联系我们 </a>
+			<i>|</i>
+			<a href="#">客服热线：400-675-1234</a>
+		</p>
+		<p>Copyright &copy; 2006 - 2018 慕课版权所有&nbsp;&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;&nbsp;某市公安局龙潭分局备案编号：32432421231</p>
+		<p class="web">
+			<a href="#">
+				<img src="images/web_logo.gif" alt="weblogo">
+			</a>
+			<a href="#">
+				<img src="images/web_logo.gif" alt="weblogo">
+			</a>
+			<a href="#">
+				<img src="images/web_logo.gif" alt="weblogo">
+			</a>
+			<a href="#">
+				<img src="images/web_logo.gif" alt="weblogo">
+			</a>
+		</p>
+	</footer>
+</body>
+</html>

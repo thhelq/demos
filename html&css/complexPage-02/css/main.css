@@ -1,0 +1,540 @@
+/* 公共 */
+html,
+body,
+aside {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 侧栏 */
+aside {
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+/* 左侧栏 */
+.aside-l {
+    width: 100px;
+    height: 100%;
+    float: left;
+    background-color: #1d2531;
+    position: relative;
+}
+/* 图标列表 */
+.aside-l .top input {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.aside-l .top .item1 {
+    background: url(../images/icon_01.png) no-repeat center;
+}
+.aside-l .top .item2 {
+    background: url(../images/icon_02.png) no-repeat center;
+}
+.aside-l .top .item3 {
+    background: url(../images/icon_03.png) no-repeat center;
+}
+.aside-l .top .item4 {
+    background: url(../images/icon_04.png) no-repeat center;
+}
+/* 下面工具条 */
+.aside-l .bottom {
+    width: 48px;
+    height: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+}
+.aside-l .bottom input {
+    width: 16px;
+    height: 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.aside-l .bottom input.icon-l {
+    background: url(../images/icon_05.png);
+}
+.aside-l .bottom input.icon-r {
+    background: url(../images/icon_06.png);
+}
+/* 右侧栏 */
+.aside-r {
+    width: 250px;
+    height: 100%;
+    overflow: auto;
+    float: left;
+    background-color: #222c3c;
+    padding: 30px;
+    position: relative;
+}
+/* 侧栏导航 */
+.aside-r dl {
+    margin: 20px 0;
+    padding-bottom: 15px;
+    border-bottom: 1px #ccc solid;
+}
+.aside-r dl:last-child {
+    border: 0;
+}
+.aside-r dl:last-of-type {
+    border: 0;
+}
+.aside-r dl dt,
+.aside-r dl dd {
+    font-size: 14px;
+    height: 38px;
+}
+.aside-r dl dt {
+    text-transform: uppercase;
+    color: #5b6779;
+}
+.aside-r dt a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/icon_06.png);
+    float: right;
+}
+.aside-r dl dd {
+    color: #b7c0cd;
+    margin: 0;
+    line-height: 38px;
+    cursor: pointer;
+}
+.aside-r dl dd:hover {
+    color: #fff;
+}
+/* 通知小图标 */
+.aside-r dd span.inform {
+    display: inline-block;
+    width: 32px;
+    height: 25px;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    line-height: 25px;
+    background-color: #1b92ed;
+}
+/* 警告小图标 */
+.aside-r dd span.warn {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    float: right;
+    border-radius: 50%;
+    background-color: #e44226;
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+}
+/* 侧栏 products导航 */
+.aside-r .products dd {
+    padding-left: 30px;
+    position: relative;
+}
+.aside-r .products dd span.icon {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    width: 19px;
+    height: 100%;
+    background: url(../images/icon_07.png) no-repeat left center;
+}
+.aside-r .products dd span.tutorial {
+    background: url(../images/icon_08.png) no-repeat left center;
+}
+.aside-r .products dd span.stock {
+    background: url(../images/icon_09.png) no-repeat left center;
+}
+.aside-r .products dd span.infographics {
+    background: url(../images/icon_10.png) no-repeat left center;
+}
+/* 下面进度条 月度目标 */
+.aside-r .goals-box {
+    position: fixed;
+    bottom: 0;
+    width: 190px;
+    height: 60px;
+    background-color: #222c3c;
+}
+.aside-r .goals-box p {
+    margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+.aside-r .goals-box p span {
+    float: right;
+}
+.aside-r .goals-box progress {
+    width: 100%;
+    height: 4px;
+    /* background: transparent; */
+}
+/* 主体 */
+main {
+    height: 100%;
+    margin-left: -350px;
+    overflow: auto;
+}
+/* 页头&登录信息 */
+main header {
+    overflow: hidden;
+}
+main header .msg {
+    font: 24px/80px ProximaNova;
+    padding-left: 30px;
+    float: left;
+}
+main header .user-box {
+    float: right;
+    margin-top: 15px;
+    width: 235px;
+    height: 50px;
+}
+.user-box .photo-box {
+    float: left;
+    margin-right: 15px;
+}
+.user-box .content {
+    margin-top: 6px;
+}
+.user-box .title {
+    font: 16px/22px ProximaNova;
+    color: #2399f1;
+}
+.user-box .text {
+    font: 14px/20px ProximaNova;
+    color: #b5b5b5;
+    text-transform: capitalize;
+}
+/* 主体左边 */
+main .l {
+    width: 400px;
+    /* display: inline-block; */
+    float: left;
+}
+/* 左边的搜索条 */
+main .l .search {
+    height: 70px;
+    border: 1px solid #e6e9ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .l .search-box {
+    display: inline-block;
+    position: relative;
+}
+main .l .search-box #search {
+    width: 340px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 20px;
+}
+main .l .search-box #search-btn {
+    position: absolute;
+    top: 10px;
+    right: 6px;
+}
+/* 左边通知列表 */
+main .l .list {
+    border-right: 1px solid #e6e9ec;
+    border-bottom: 1px solid #e6e9ec;
+}
+main .l .list .item-1 {
+    height: 130px;
+    padding: 10px 70px 10px 30px;
+    border-bottom: 1px solid #e6e9ec;
+}
+main .l .list .active {
+    border-left: 3px solid #2399f1;
+}
+main .l .list .hd {
+    height: 60px;
+    /* padding: 15px 0; */
+}
+main .l .list .photo-box {
+    float: left;
+    width: 70px;
+}
+main .l .list .title {
+    font: 16px/22px ProximaNova;
+    color: #2399f1;
+}
+main .l .list .title:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #00aaff;
+    border-radius: 50%;
+    margin-right: 7px;
+    vertical-align: 2px;
+}
+main .l .list .flag{
+    font: 12px/22px ProximaNova;
+    color: #b5b5b5;
+}
+main .l .list .content p {
+    font: 12px/18px ProximaNova;
+    color: #585d68;
+}
+main .l .list .distance {
+    float: right;
+    font-size: 14px;
+    margin-right: -50px;
+    color: #7f8fa4;
+}
+main .l .list .content:after {
+    content: "4";
+    float: right;
+    /* display: inline-block; */
+    width: 24px;
+    height: 24px;
+    background-color: #1c93ec;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    margin-right: -50px;
+    margin-top: -36px;
+}
+/* 主体右边 */
+main .r {
+    /* overflow: hidden; */
+    /* height: 100%; */
+    /* display: inline-block; */
+    float: left;
+    width: calc(100% - 400px);
+}
+/* 页头&标题 */
+main .r .hd {
+    height: 70px;
+    line-height: 70px;
+    border: 1px solid #e6e9ec;
+    border-left: 0;
+    border-right: 0;
+    padding-left: 30px;
+    position: relative;
+}
+main .r .hd .title {
+    /* float: left; */
+    font-size: 18px;
+    color: #585d68
+}
+main .r .hd .title:after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #1bb934;
+    border-radius: 50%;
+    margin-left: 10px;
+    vertical-align: 2px;
+}
+/* 工具条 */
+main .r .tools {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+main .r .tools-l,
+main .r .tools-r {
+    float: left;
+    margin-right: 20px;
+}
+main .r .tools-l,
+main .r .tools-r {
+    list-style: none;
+    border:1px solid #ced0da;
+    border-radius: 5px;
+}
+main .r .tools-l li,
+main .r .tools-r li {
+    width: 36px;
+    height: 32px;
+    float: left;
+    cursor: pointer;
+}
+/* 添加按钮 */
+main .r .tools-l li.add  {
+    background: url(../images/tools_01.png) no-repeat center center;
+    border-right: 1px solid #ced0da;
+}
+/* 上传按钮 */
+main .r .tools-l li.uploading {
+    background: url(../images/tools_02.png) no-repeat center center;
+    border-right: 1px solid #ced0da;
+}
+/* 删除按钮 */
+main .r .tools-l li.delete {
+    background: url(../images/tools_03.png) no-repeat center center;
+}
+/* 前进按钮&后退按钮 */
+main .r .tools-r li.forward {
+    border-right: 1px solid #ced0da;
+}
+main .r .tools-r li.forward,
+main .r .tools-r li.back {
+    line-height: 32px;
+    text-align: center;
+}
+main .r .tools-r li.forward a,
+main .r .tools-r li.back a {
+   width: 0;
+   height: 0;
+   line-height: 32px;
+   display: inline-block;
+   border: 7px solid;
+   border-color: #fff #ced0da #fff #fff
+}
+main .r .tools-r li.back a {
+    border-color: #fff #fff #fff #fff;
+    border-left-color: #1c93ec
+}
+main .r .tools .text {
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 32px;
+    font-size: 14px;
+    text-align: center;
+    border-left: 1px solid #f0f1f4;
+}
+/* 文章展示列表 */
+main .r [class*="list"] {
+    padding: 30px;
+    padding-right: 50px;
+    border-bottom: 1px solid #d9dde3;
+    position: relative;
+}
+main .r .list-1:after {
+    content: "Tuesday";
+    display: inline-block;
+    padding: 0 17px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #7f8fa4;
+}
+main .r .list-2 {
+    border-bottom: 1px solid #a7d6f9;
+}
+main .r .list-2:after {
+    content: "New Messages";
+    display: inline-block;
+    padding: 0 17px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+    color: #2399f1;
+}
+main .r .list-3 {
+    border: 0;
+}
+main .r [class*="list"] .item {
+    margin-bottom: 30px;
+}
+main .r [class*="list"] .item:last-of-type {
+    margin: 0;
+}
+main .r [class*="list"] .photo-box {
+    width: 70px;
+    height: 100%;
+    float: left;
+}
+main .r [class*="list"] .content {
+    margin-left: 70px;
+}
+main .r [class*="list"] .content .title {
+    font: 16px/25px ProximaNova;
+    color: #585d68;
+}
+main .r [class*="list"] .content .title .date {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    font: 200 14px/25px ProximaNova;
+    color: #7f8fa4;
+}
+main .r [class*="list"] .content .text {
+    margin-top: 7px;
+    font: 300 14px/20px ProximaNova;    
+    color: #585d68;
+}
+/* 文章展示用的图片 */
+main .r [class*="list"] .content .pic {
+    font-size: 0;
+    margin-top: 20px;
+}
+main .r [class*="list"] .content .pic a {
+    display: inline-block;
+    position: relative;
+}
+main .r [class*="list"] .content .pic a:after {
+    content: "";
+    display: none;
+    width: 100%;
+    height: 100px;
+    background: url(../images/zoom.png)no-repeat center center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+main .r [class*="list"] .content .pic a:hover:after {
+    display: block;
+}
+main .r .content .pic a:first-child {
+    margin-right: 13px;
+}
+/* 发布文章 */
+main .r .issue-box {
+    width: 95%;
+    height: 55px;
+    background: red;
+    margin: 0 auto;
+    border: 1px solid #dfe3e9;
+    border-radius: 5px;
+}
+main .r .issue-box input {
+    float: left;
+    height: 100%;
+    border: 0;
+    outline: 0;
+}
+main .r .issue-box #issue-btn {
+    width: 55px;
+    font-size: 30px;
+    color: #9fa9ba;
+    background-color: #f5f7f9;
+    border-right: 1px solid #dfe3e9;
+}
+main .r .issue-box #text-btn {
+    width: calc(100% - 55px);
+    padding-left: 20px;
+}

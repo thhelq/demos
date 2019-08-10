@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 12px/22px "微软雅黑";
+}
+ul {
+    list-style: none;
+}
+
+.checkbox {
+    width: 520px;
+    height: 30px;
+    margin: 20px auto;
+    padding-left: 10px;
+    border: 1px solid #DFDFDF;
+    border-width: 1px 0;
+    overflow: hidden;
+    
+}
+.checkbox form {
+    height: 30px;
+}
+.checkbox form input {
+    display: none;
+}
+.checkbox form label {
+    display: inline-block;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.checkbox ul {
+    overflow: hidden;
+}
+.checkbox ul li {
+    float: left;
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    padding-left: 23px;
+    cursor: pointer;
+}
+.checkbox ul li:hover {
+    background-color: green;
+}
+.checkbox li b {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../img/checkbox.gif) -13px -17px no-repeat;
+}
+.checkbox li:hover b {
+    background-position-y: -117px;
+}
+.checkbox li.checked b {
+/* ,.checkbox li.checked:hover b { */
+    background-position-y: -217px;
+}

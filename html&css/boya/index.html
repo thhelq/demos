@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>博雅互动-博雅德州扑克下载|博雅斗地主下载|博雅麻将下载|iPhone|Android|手机下载</title>
+	<style>
+		
+		* {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+
+		.fl {
+			float: left;
+		}
+
+		.fr {
+			float: right;
+		}
+
+		body {
+			font: 12px "Microsoft YaHei","SimSun";
+			background-color: #f7f7f7;
+		}
+
+		a {
+			color: #000;
+			text-decoration: none;
+			transition: background-color .2s linear 0s;
+		}
+
+		a:hover {
+			background-color: #33b972;
+			color: #fff;
+		}
+
+		.inner_c {
+			width: 1000px;
+			margin: 0 auto;
+		}
+
+		.header {
+			height: 58px;
+			background-color: #191d3a;
+		}
+		
+		.header .logo, .header .nav, .header .jrwm_box {
+			float: left;
+		}
+
+		.header .logo {
+			padding-left: 12px;
+			margin-right: 40px;
+			width: 184px;
+			height: 58px;
+		}
+
+		.header .logo a {
+			display: block;
+			background: url(images/logo.gif) no-repeat;
+			text-indent: -999em;
+			width: 184px;
+			height: 58px;
+		}
+
+		.header .nav ul {
+			list-style: none;
+		}
+
+		.header .nav ul li {
+			float: left;
+			width: 100px;
+			line-height: 58px;
+			text-align: center;
+			border-left: 1px solid #252947;
+
+		}
+		
+		.header .nav ul li.last {
+			border-right: 1px solid #252947;
+		}
+
+		.header .nav ul li a {
+			color: #818496;
+			font-size: 14px;
+			display: block;
+		}
+
+		.header .nav ul li a.current {
+			color: #fff;
+			background-color: #252947;
+		}
+
+		.header .nav ul li a:hover {
+			color: #fff;
+			background-color: #252947;
+		}
+		
+		.header .jrwm_box {
+			float: left;
+			height: 58px;
+			width: 100px;
+			padding-left: 48px;
+			padding-top: 12px;
+		}
+
+		.header .jrwm_box .jrwm {
+			height: 35px;
+			background-color: #38b774;
+			text-align: center;
+			border-radius: 3px;
+		}
+
+		.header .jrwm_box .jrwm a {
+			color: #fff;
+			font-size: 14px;
+			display: block;
+			line-height: 35px;
+		}
+
+		.banner {
+			height: 465px;
+			background: url(images/banner.jpg) no-repeat center top;
+		}
+
+		.content {
+			margin-top: 50px;
+		}
+
+		.content .product {
+			height: 229px;
+			border-bottom: 1px solid #DBE1E7;
+		}
+
+		.conent .product ul {
+			list-style: none;
+		}
+
+		.content .product ul li {
+			float: left;
+			width: 218px;
+			margin-right: 43px;
+			text-align: center;
+		}
+
+		.content .product ul li img {
+			width: 218px;
+			height: 130px;
+		}
+
+		.content .product ul li.last {
+			margin-right: 0;
+			width: 217px;
+		}
+
+		.content .product ul li.last img {
+			width: 217px;
+		}
+		
+		.content .product ul li h3 {
+			text-align: center;
+			line-height: 38px;
+			font-size: 14px;
+			font-weight: bold;
+		}
+
+		.content .product ul li p.djbf{
+			line-height: 16px;
+		}
+
+		.content .product ul li p.djbf a {
+			font-size: 12px;
+			color: #38b774;
+			padding-right: 12px;
+			background: url(images/xianjiaoxing.gif) no-repeat right;
+		}
+
+		.content .line {
+			border-top: 1px solid #ccc;
+		}
+
+		.content .line ul {
+			width: 50px;
+			margin: -6px auto 0;
+			background-color: #fff;
+			overflow: hidden;
+			padding-left: 14px;
+		}
+
+		.content .line ul li {
+			border-radius: 50%;
+			background-color: #ccc;
+			float: left;
+			width: 11px;
+			height: 11px;
+			text-indent: -9999px;
+			margin-right: 14px;
+		}
+
+		.content .line ul li.current {
+			background-color: green;
+		}
+
+		.content .maincon{
+			padding-bottom: 60px;
+			overflow: hidden;
+			background: url(images/indexmainbg.jpg) no-repeat center bottom;
+		}
+
+		.content .maincon .news {
+			width: 500px;
+			height: 310px;
+			background: url(images/bynewsbg.jpg) no-repeat 0 -10px;
+			margin-top: 50px;
+			float: left;
+		}
+
+		.content .maincon .news .news_title {
+			padding: 40px 216px 0 0;
+			height: 70px;
+		}
+
+		.content .maincon .news .news_title h2, 
+		.content .maincon .news .news_title p {
+			display: none;
+		}
+
+		.content .maincon .more {
+			float: right;
+		}
+
+		.content .maincon .more a {
+			display: inline-block;
+			width: 64px;
+			height: 26px;
+			color: #30bd72;
+			border: 1px solid #30bd72;
+			border-radius: 5px;
+			font-family: "Hiragino Sans GB", "Microsoft YaHei", 宋体, Arial, Tahoma, Helvetica, Geneva, sans-serif;
+			font-size: 12px;
+			text-align: center;
+		}
+		
+		.content .maincon .more a:hover {
+			color: #fff;
+		}
+
+		.news_content {
+			padding: 0 20px;
+		}
+
+		.news_list li {
+			border-bottom: 1px solid #ccc;
+			padding: 10px 0;
+			font-size: 14px;
+			line-height: 30px;
+		}
+		
+		.news_list li a {
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			display: block;
+		}
+
+		.news_list li a:hover {
+			color:  #30bd72;
+			background-color: #fff;
+		}
+		.news_list li .time {
+			font-size: 12px;
+			color: #afbece;
+			float: right;
+			margin-left: 18px;
+		}
+		.zhaopin_box {
+			box-sizing: border-box;
+			float: right;
+			width: 500px;
+			height: 310px;
+			margin-top: 50px;
+			background: url(images/byhrbg3.jpg) no-repeat;
+		}
+
+		.zhaopin_title {
+			height: 70px;
+			padding: 40px 215px 0 0;
+		}
+
+		.zhaopin_box .zhaopin_title .more a {
+			color: #fff;
+			border-color: #fff!important;
+		}
+
+		.zhaopin_title .more a:hover {
+			color: #2fbc71!important;
+			background-color: #fff;
+		}
+		
+		.stit {
+			padding-left: 80px;
+			float: left;
+			color: #fff;
+		}
+
+		.stit h2 {
+			font-size: 28px;
+			color: black;
+			line-height: 34px;
+		}
+
+		.zhaopin {
+			padding: 0 170px 0 20px;
+		}
+
+		.zhaopin h3 {
+			font-size: 14px;
+			color: #fff;
+			margin-bottom: 5px;
+		}
+
+		.zhaopin li {
+			color: #fff;
+			font-size: 15px;
+			line-height: 37px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+
+		.footer {
+			width: 100%;
+			background-color: #191d3a;
+			line-height: 50px;
+		}
+
+		.footer nav {
+			color: #6c6e7e;
+			padding: 20px 0;
+		}
+
+		.footer nav a {
+			color: #6c6e7e;
+		}
+
+		.footer nav a:hover {
+			color: #fff;
+			background-color: #191d3a;
+		}
+
+		.footer nav a img {
+			vertical-align: middle;
+		}
+
+		.go_top {
+			width: 68px;
+			height: 29px;
+			display: inline-block;
+			background: url(images/top.png) no-repeat 0 -40px;
+			z-index: 999;
+			position: fixed;
+			right: 15px;
+			bottom: 75px;
+		}
+
+		.go_top:hover {
+			background-position: 0 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<div class="inner_c">
+			<h1 class="logo">
+				<a href="#">
+					博雅互动-世界上最好的游戏公司
+				</a>
+			</h1>
+			<div class="nav">
+				<ul>
+					<li><a class="current" href="#">首页</a></li>
+					<li><a href="#">博雅游戏</a></li>
+					<li><a href="#">博雅新闻</a></li>
+					<li><a href="#">关于我们</a></li>
+					<li><a href="#">客服中心</a></li>
+					<li class="last"><a href="#">投资者关系</a></li>
+				</ul>
+			</div>
+			<div class="jrwm_box">
+				<div class="jrwm">
+					<a href="https://www.baidu.com" target="_blank">加入我们</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="banner"></div>
+	<div class="content inner_c">
+		<div class="product">
+			<ul>
+				<li>
+					<p><img src="images/pro1.gif" alt=""></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+				<li>
+					<p><img src="images/pro1.gif" alt=""></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+				<li>
+					<p><img src="images/pro1.gif" alt=""></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+				<li class="last">
+					<p><img src="images/pro1.gif" alt=""></p>
+					<h3>BPT宣传片</h3>
+					<p class="djbf">
+						<a href="#">点击播放</a>
+					</p>
+				</li>
+			</ul>
+		</div>
+		<div class="line">
+			<ul>
+				<li class="current">1</li>
+				<li>2</li>
+			</ul>
+		</div>
+		<div class="maincon">
+			<div class="news">
+				<section class="news_title">
+					<h2>博雅新闻</h2>
+					<p>BOYAA NEWS</p>
+					<span class="more">
+						<a href="#">MORE
+							<sup>+</sup>
+						</a>
+					</span>
+				</section>
+				<article class="news_content">
+					<ul class="news_list">
+						<li>
+							<span class="time">11/22</span>
+							<a href="#">博雅互动公布2018年第三季度业绩善用成本费用控制政策 在考验中做好防守</a>
+						</li>
+						<li>
+							<span class="time">11/22</span>
+							<a href="#">博雅互动公布2018年第三季度业绩善用成本费用控制政策 在考验中做好防守</a>
+						</li>
+						<li>
+							<span class="time">11/22</span>
+							<a href="#">博雅互动公布2018年第三季度业绩善用成本费用控制政策 在考验中做好防守</a>
+						</li>
+						<li>
+							<span class="time">11/22</span>
+							<a href="#">博雅互动公布2018年第三季度业绩善用成本费用控制政策 在考验中做好防守</a>
+						</li>
+					</ul>
+				</article>
+			</div>
+			<div class="zhaopin_box">
+				<div class="zhaopin_title">
+					<div class="stit">
+						<h2>社会招聘</h2>
+						<p>BOYAA JOBS</p>
+					</div>
+					<span class="more">
+						<a href="#">MORE
+							<sup>+</sup>
+						</a>
+					</span>
+				</div>
+				<article class="zhaopin">
+					<h3>社会招聘岗位</h3>
+					<a href="#">
+						<ul class="zhaopin_list">
+							<li>PHP开发工程师</li>
+							<li>C++开发工程师</li>
+							<li>LUA开发工程师</li>
+							<li>大数据开发工程师</li>
+						</ul>
+					</a>
+				</article>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<nav class="inner_c">
+			<p>
+				<span>
+					<a href="#">网站地图</a>
+					&nbsp;|&nbsp;
+					<a href="#">免责声明</a>
+					&nbsp;|&nbsp;
+					<a href="#">监督举报</a>
+				</span>
+			</p>
+			<p>Copyright © 2004 - 2019 博雅互动(Boyaa Interactive)
+				<a href="#">粤ICP备05062536号</a>
+			</p>
+			<p>
+				<span class="copyright">
+					网络文化经营许可证：粤网文[2015]1991-405号&nbsp;|&nbsp;互联网出版许可证：新出网证（粤）字062号&nbsp;|&nbsp;增值电信业务经营许可证：粤B2-20110513
+					<a href="#">
+						<img border="0" width="36" height="50" style="border-width:0px;border:hidden; border:none;" alt="深圳市市场监督管理局企业主体身份公示" title="深圳市市场监督管理局企业主体身份公示" src="http://szcert.ebs.org.cn/Images/govIcon.gif">
+					</a>
+				<span>
+			</p>
+		</nav>
+	</div>
+	<a href="#" class="go_top">
+		
+	</a>
+</body>
+</html>
