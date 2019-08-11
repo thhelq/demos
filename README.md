@@ -25,7 +25,7 @@ newWorld-product => 新世界官网首页 => [index.html](<https://thhelq.github
 
 pretty-website => 一个漂亮的页面 => [index.html](<https://thhelq.github.io/demos/html%26css/pretty-website/index.html>)、[flex.html](<https://thhelq.github.io/demos/html%26css/pretty-website/flex.html>)
 
-formBea => 表单美化 => [复选框美化](<https://thhelq.github.io/demos/html%26css/formBea/checkbox/checkbox.html>)、[单选框美化](<https://thhelq.github.io/demos/html%26css/formBea/radio/radio.html>)、[下拉列表美化](<https://thhelq.github.io/demos/html%26css/formBea/select/select.html>)、[文本框美化](<https://thhelq.github.io/demos/html%26css/formBea/textbox/textbox.html>)
+formBea => 表单美化 => [复选框美化](<https://thhelq.github.io/demos/html%26css/formBea/checkbox/checkbox.html>)、[单选框美化](<https://thhelq.github.io/demos/html%26css/formBea/radio/radio.html>)、[下拉列表美化](<https://thhelq.github.io/demos/html%26css/formBea/select/select.html>)、[文本框美化](<https://thhelq.github.io/demos/html%26css/formBea/textbox/text.html>)
 
 ### bootstrap
 
