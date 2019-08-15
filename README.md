@@ -35,3 +35,8 @@ system&museum => 管理系统首页和浏览器博物馆首页 => [system-index.
 
 ### vue
 
+Vue-MintWaimai => 外卖Web App 前后台分离 => [预览地址](<https://thhelq.github.io/Vue-MintWaimai>)
+
+POS-System => 快餐店管理系统 => [预览地址](<https://thhelq.github.io/POS-System>)
+
+目前这两个项目还在更新ing，占个坑先……
