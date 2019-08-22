@@ -57,12 +57,12 @@
 
 ## Bootstrap
 ### 12、simpleExample=>一个简单的响应式布局例子
-- [首页](<https://thhelq.github.io/demos/bootstrap/simpleExample/response-example.html>)
+- [首页](<https://thhelq.github.io/demos/Bootstrap/simpleExample/response-example.html>)
 
 ### 13、system&museum=>管理系统首页和浏览器博物馆首页
-- [管理系统首页](<https://thhelq.github.io/demos/bootstrap/system%26museum/system-index.html>)
+- [管理系统首页](<https://thhelq.github.io/demos/Bootstrap/system%26museum/system-index.html>)
 
-- [浏览器博物馆首页](<https://thhelq.github.io/demos/bootstrap/system%26museum/browseMuseum.html>)
+- [浏览器博物馆首页](<https://thhelq.github.io/demos/Bootstrap/system%26museum/browseMuseum.html>)
 
 ## Vue
 
