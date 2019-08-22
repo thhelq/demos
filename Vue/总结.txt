@@ -1,0 +1,3 @@
+.td-product 中的文字容器和图片使用vertical-align: middle 对齐，必须要是inline-block
+.delect-product 中的span(icon) 使用vertical-align: top; 顶端对齐后使用外边距垂直对齐，margin-top是父容器高度的一半再减自身高度的一半
+使用span的小图标（icon）处理的方法非常完美

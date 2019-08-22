@@ -1,0 +1,37 @@
+{
+    "totalMoney":69,
+   "list":[
+       {
+           "productId": 1,
+           "productName": "天王表",
+           "productPrice": 19,
+           "productQuentity":1,
+           "productImage": "img/shoubiao.webp",
+            "parts":[
+                {
+                    "partsId":"101",
+                    "partsName": "赠品1"
+                },{
+                    "partsId":"102",
+                    "partsName": "赠品2"
+                }
+            ]
+       },
+       {
+           "productId": 2,
+           "productName": "玉镯",
+           "productPrice": 10,
+           "productQuentity":5,
+           "productImage": "img/yuzhuo.webp",
+            "parts":[
+                {
+                    "partsId":"103",
+                    "partsName": "赠品3"
+                },{
+                    "partsId":"104",
+                    "partsName": "赠品4"
+                }
+            ]
+       }
+   ]
+}

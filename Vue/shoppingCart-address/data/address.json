@@ -1,0 +1,54 @@
+{
+    "status": 0,
+    "message":"",
+    "result": [
+        {
+            "addressId":"101",
+            "userName":"小明",
+            "streetName":"北京市朝阳区朝阳公园",
+            "postCode":"101",
+            "tel":"12345678901",
+            "isDefault":true    
+        },
+        {
+            "addressId":"102",
+            "userName":"小红",
+            "streetName":"北京市朝阳区朝阳公园",
+            "postCode":"102",
+            "tel":"12345678901",
+            "isDefault":false    
+        },
+        {
+            "addressId":"103",
+            "userName":"小花",
+            "streetName":"北京市朝阳区朝阳公园",
+            "postCode":"103",
+            "tel":"12345678901",
+            "isDefault":false    
+        },
+        {
+            "addressId":"104",
+            "userName":"小虎",
+            "streetName":"北京市朝阳区朝阳公园",
+            "postCode":"104",
+            "tel":"12345678901",
+            "isDefault":false    
+        },
+        {
+            "addressId":"105",
+            "userName":"小星",
+            "streetName":"北京市朝阳区朝阳公园",
+            "postCode":"105",
+            "tel":"12345678901",
+            "isDefault":false    
+        },
+        {
+            "addressId":"106",
+            "userName":"小刚",
+            "streetName":"北京市朝阳区朝阳公园",
+            "postCode":"106",
+            "tel":"12345678901",
+            "isDefault":false    
+        }
+    ]
+}
