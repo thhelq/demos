@@ -1,0 +1,112 @@
+/*
+* @Author: 青
+* @Date:   2020-03-17 23:41:53
+* @Last Modified by:   青
+* @Last Modified time: 2020-03-27 11:02:42
+*/
+/* 最外层容器 */
+.page-wrap{
+	padding: 40px 0;
+	background: #e72955;
+}
+/* 表单框 */
+.user-con{
+	position: relative;
+	margin: 0 auto;
+	width: 400px;
+	background: #fff;
+}
+.user-con .user-title{
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 18px;
+	font-weight: bold;
+	color: #666;
+}
+
+.user-con .user-box{
+	padding: 20px;
+}
+/* 错误提示框 */
+.user-con .user-box .error-item{
+	position: relative;
+	padding: 4px 0 4px 40px;
+	margin-bottom: 10px;
+	border: 1px solid red;
+	color: red;
+	background: #fde9e9;
+	display: none;
+}
+/* 错误图标 */
+.user-con .user-box .error-icon{
+	position: absolute;
+	left: 14px;
+	top: 50%;
+	margin-top: -7px;
+	font-size: 14px;
+}
+
+.user-con .user-item{
+	position: relative;
+	margin-bottom: 20px;
+}
+.user-con .user-item .user-label{
+	position: absolute;
+	left: 1px;
+	top: 1px;
+	bottom: 1px;
+	width: 40px;
+	/*height: 36px;*/
+	line-height: 36px;
+	background: #f3f3f3;
+	font-size: 18px;
+	color: #d3d3d3;
+	text-align: center;
+	border-right: 1px solid #bdbdbd;
+}
+.user-con .user-item .user-content{
+	padding: 10px 0 10px 50px;
+	width: 308px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 15px;
+	border: 1px solid #bdbdbd;
+	outline: none;
+}
+/* 登录按钮 */
+.user-con .btn-submit{
+	width: 100%;
+	padding: 2px 0;
+	text-align: center;
+	font-size: 20px;
+}
+/* 跳转链接 */
+.user-con .link-item{
+	text-align: right;
+	margin-top: 10px;
+}
+.user-con .link-item .link{
+	margin-left: 10px;
+	/*color: #999;*/
+}
+/*
+* @Author: 青
+* @Date:   2020-03-14 17:03:06
+* @Last Modified by:   青
+* @Last Modified time: 2020-03-29 10:49:22
+*/
+.nav-simple {
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+.nav-simple .logo {
+	font-size: 26px;
+	font-weight: bold;
+	color: #c60023;
+	text-decoration: none;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvcGFnZS91c2VyLWxvZ2luL2luZGV4LmNzcyIsIndlYnBhY2s6Ly8vLi9zcmMvcGFnZS9jb21tb24vbmF2LXNpbXBsZS9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxnQkFBZ0I7QUFDaEI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsZUFBZTtBQUNmLEM7QUMzRkE7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLEMiLCJmaWxlIjoiLi9jc3MvdXNlci1sb2dpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxyXG4qIEBBdXRob3I6IOmdklxyXG4qIEBEYXRlOiAgIDIwMjAtMDMtMTcgMjM6NDE6NTNcclxuKiBATGFzdCBNb2RpZmllZCBieTogICDpnZJcclxuKiBATGFzdCBNb2RpZmllZCB0aW1lOiAyMDIwLTAzLTI3IDExOjAyOjQyXHJcbiovXHJcbi8qIOacgOWkluWxguWuueWZqCAqL1xyXG4ucGFnZS13cmFwe1xyXG5cdHBhZGRpbmc6IDQwcHggMDtcclxuXHRiYWNrZ3JvdW5kOiAjZTcyOTU1O1xyXG59XHJcbi8qIOihqOWNleahhiAqL1xyXG4udXNlci1jb257XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdG1hcmdpbjogMCBhdXRvO1xyXG5cdHdpZHRoOiA0MDBweDtcclxuXHRiYWNrZ3JvdW5kOiAjZmZmO1xyXG59XHJcbi51c2VyLWNvbiAudXNlci10aXRsZXtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0cGFkZGluZzogMTBweCAwO1xyXG5cdGJvcmRlci1ib3R0b206IDFweCBzb2xpZCAjZGRkO1xyXG5cdGZvbnQtc2l6ZTogMThweDtcclxuXHRmb250LXdlaWdodDogYm9sZDtcclxuXHRjb2xvcjogIzY2NjtcclxufVxyXG5cclxuLnVzZXItY29uIC51c2VyLWJveHtcclxuXHRwYWRkaW5nOiAyMHB4O1xyXG59XHJcbi8qIOmUmeivr+aPkOekuuahhiAqL1xyXG4udXNlci1jb24gLnVzZXItYm94IC5lcnJvci1pdGVte1xyXG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuXHRwYWRkaW5nOiA0cHggMCA0cHggNDBweDtcclxuXHRtYXJnaW4tYm90dG9tOiAxMHB4O1xyXG5cdGJvcmRlcjogMXB4IHNvbGlkIHJlZDtcclxuXHRjb2xvcjogcmVkO1xyXG5cdGJhY2tncm91bmQ6ICNmZGU5ZTk7XHJcblx0ZGlzcGxheTogbm9uZTtcclxufVxyXG4vKiDplJnor6/lm77moIcgKi9cclxuLnVzZXItY29uIC51c2VyLWJveCAuZXJyb3ItaWNvbntcclxuXHRwb3NpdGlvbjogYWJzb2x1dGU7XHJcblx0bGVmdDogMTRweDtcclxuXHR0b3A6IDUwJTtcclxuXHRtYXJnaW4tdG9wOiAtN3B4O1xyXG5cdGZvbnQtc2l6ZTogMTRweDtcclxufVxyXG5cclxuLnVzZXItY29uIC51c2VyLWl0ZW17XHJcblx0cG9zaXRpb246IHJlbGF0aXZlO1xyXG5cdG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuLnVzZXItY29uIC51c2VyLWl0ZW0gLnVzZXItbGFiZWx7XHJcblx0cG9zaXRpb246IGFic29sdXRlO1xyXG5cdGxlZnQ6IDFweDtcclxuXHR0b3A6IDFweDtcclxuXHRib3R0b206IDFweDtcclxuXHR3aWR0aDogNDBweDtcclxuXHQvKmhlaWdodDogMzZweDsqL1xyXG5cdGxpbmUtaGVpZ2h0OiAzNnB4O1xyXG5cdGJhY2tncm91bmQ6ICNmM2YzZjM7XHJcblx0Zm9udC1zaXplOiAxOHB4O1xyXG5cdGNvbG9yOiAjZDNkM2QzO1xyXG5cdHRleHQtYWxpZ246IGNlbnRlcjtcclxuXHRib3JkZXItcmlnaHQ6IDFweCBzb2xpZCAjYmRiZGJkO1xyXG59XHJcbi51c2VyLWNvbiAudXNlci1pdGVtIC51c2VyLWNvbnRlbnR7XHJcblx0cGFkZGluZzogMTBweCAwIDEwcHggNTBweDtcclxuXHR3aWR0aDogMzA4cHg7XHJcblx0aGVpZ2h0OiAxOHB4O1xyXG5cdGxpbmUtaGVpZ2h0OiAxOHB4O1xyXG5cdGZvbnQtc2l6ZTogMTVweDtcclxuXHRib3JkZXI6IDFweCBzb2xpZCAjYmRiZGJkO1xyXG5cdG91dGxpbmU6IG5vbmU7XHJcbn1cclxuLyog55m75b2V5oyJ6ZKuICovXHJcbi51c2VyLWNvbiAuYnRuLXN1Ym1pdHtcclxuXHR3aWR0aDogMTAwJTtcclxuXHRwYWRkaW5nOiAycHggMDtcclxuXHR0ZXh0LWFsaWduOiBjZW50ZXI7XHJcblx0Zm9udC1zaXplOiAyMHB4O1xyXG59XHJcbi8qIOi3s+i9rOmTvuaOpSAqL1xyXG4udXNlci1jb24gLmxpbmstaXRlbXtcclxuXHR0ZXh0LWFsaWduOiByaWdodDtcclxuXHRtYXJnaW4tdG9wOiAxMHB4O1xyXG59XHJcbi51c2VyLWNvbiAubGluay1pdGVtIC5saW5re1xyXG5cdG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG5cdC8qY29sb3I6ICM5OTk7Ki9cclxufSIsIi8qXHJcbiogQEF1dGhvcjog6Z2SXHJcbiogQERhdGU6ICAgMjAyMC0wMy0xNCAxNzowMzowNlxyXG4qIEBMYXN0IE1vZGlmaWVkIGJ5OiAgIOmdklxyXG4qIEBMYXN0IE1vZGlmaWVkIHRpbWU6IDIwMjAtMDMtMjkgMTA6NDk6MjJcclxuKi9cclxuLm5hdi1zaW1wbGUge1xyXG5cdGhlaWdodDogNjBweDtcclxuXHRsaW5lLWhlaWdodDogNjBweDtcclxuXHRib3JkZXItYm90dG9tOiAxcHggc29saWQgI2RkZDtcclxuXHRiYWNrZ3JvdW5kOiAjZmZmO1xyXG59XHJcbi5uYXYtc2ltcGxlIC5sb2dvIHtcclxuXHRmb250LXNpemU6IDI2cHg7XHJcblx0Zm9udC13ZWlnaHQ6IGJvbGQ7XHJcblx0Y29sb3I6ICNjNjAwMjM7XHJcblx0dGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ==*/
